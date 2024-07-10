@@ -4,7 +4,6 @@ import Navbar from "react-bootstrap/Navbar";
 import { Form, Button, Modal } from "react-bootstrap";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { useContext, useState, useEffect } from "react";
-import { UserContext } from "../App";
 import { SignIn } from "../screens/SignIn";
 import { SignUp } from "../screens/SignUp";
 import ForgotPassword from "../screens/ForgotPassword";

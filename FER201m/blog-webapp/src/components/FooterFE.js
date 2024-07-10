@@ -1,12 +1,11 @@
 import { Container, Col, Row } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
-import { Link } from "react-router-dom";
 export default function FooterFE() {
   return (
     <Container fluid className="footer ">
       <Container>
         <Row>
-          <Col md={4} sm={12}>
+          <Col md={6} sm={12}>
             <div className="footer-left">
               <Navbar.Brand href="#home" className="logo-container">
                 <img src="../../assets/images/lg.png" alt="Candy Land" />
@@ -19,7 +18,7 @@ export default function FooterFE() {
               </div>
             </div>
           </Col>
-          <Col md={4} sm={12}>
+          <Col md={6} sm={12}>
             <div className="footer-middle">
               <div className="middle-title">Liên hệ</div>
               <div className="middle-content">
@@ -40,25 +39,6 @@ export default function FooterFE() {
               </div>
             </div>
           </Col>
-          <Col md={4} sm={12}>
-            <div className="footer-right">
-              <div className="right-title">Theo dõi chúng tôi</div>
-              <div className="right-content">
-                <p>
-                  <a href="#gt">Giới thiệu</a>
-                </p>
-                <p>
-                  <a href="#gt">Chính sách quảng cáo</a>
-                </p>
-                <p>
-                  <a href="#gt">Chính sách bảo mật</a>
-                </p>
-                <p>
-                  <a href="#gt">Miễn trừ trách nhiệm</a>
-                </p>
-              </div>
-            </div>
-          </Col>
         </Row>
       </Container>
       <Container>
@@ -74,9 +54,6 @@ export default function FooterFE() {
           >
             Group VI - SE1836
           </span>
-          <Link to="/copyright" className="copyright">
-            Copyright @ 2024
-          </Link>
         </div>
       </Container>
     </Container>
